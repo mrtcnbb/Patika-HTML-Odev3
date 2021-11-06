@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+}
+
+.header-title {
+  text-align: center;
+  padding: 5px;
+  margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-aside {
+  display: inline-block;
+  flex: 1;
+  background-image: url(img/magnolia-dessert.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+.middle {
+  display: inline-block;
+  flex: 2;
+  background-color: wheat;
+  margin: 0 1em;
+}
+
+.mid-upper {
+  text-indent: 2em;
+  padding: 1em;
+}
+
+.mid-lower {
+  margin-top: 1em;
+  padding: 0 1em;
+}
+
+.mid-lower > h3 {
+  display: inline-block;
+  border-radius: 5em;
+  padding: 5px;
+  background-color: darksalmon;
+}
+
+.mid-lower > ul,
+ol {
+  margin: 1em 2em;
+}
+
+.af {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.right-aside {
+  display: inline-block;
+  flex: 1;
+  background-image: url(img/magnolia-dessert.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+}
